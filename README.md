@@ -1,7 +1,7 @@
 <h1 align="center">Discord Token Stealer</h1>
 <p align="center">A Discord token stealer app written in Python 3.</p>
 
-<center>This version of the grabber only supports **Windows**.
+<p align="center">This version of the grabber only supports **Windows**.
 
 # Features
  - No local caching
