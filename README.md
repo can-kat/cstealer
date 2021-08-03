@@ -25,8 +25,8 @@
     - [Discord](https://discord.gg/fsgu7EnTyp)
 
 # Disclaimer
-All responsibilities are at your own risk.
-This app developed for educational purposes only.
+- All responsibilities are at your own risk.
+- This app developed for educational purposes only.
 
 # Credit
 Used both of the [wodx's](https://github.com/wodxgod) code.
