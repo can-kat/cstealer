@@ -5,7 +5,7 @@
   </kbd>
 </p>
 
-<p> This is clean version of shitty dualhook stealers</p>
+<p> This is the clean version of shitty dualhook stealers</p>
 <p> you can contact me for private stealer/tools cankat#4333</p>
 
 
