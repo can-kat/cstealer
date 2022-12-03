@@ -13,9 +13,9 @@ Stealer
 </p>
 
 <p align="center">
-<p>  Telegram: https://t.me/cankat</p>
-<p> This is the clean version of shitty dualhook stealers</p>
-<p> you can contact me for private stealer/tools via telegram/cankat</p>
+  Telegram: https://t.me/cankat
+This is the clean version of shitty dualhook stealers
+you can contact me for private stealer/tools via telegram/cankat
 </p>
 
 
