@@ -28,7 +28,7 @@
 
 ## Setup:
  
-First paste and save your webhook address instead of `"YOUR_WEBHOOK"` in main.py
+First paste and save your webhook address instead of `"YOUR_WEBHOOK"` in stealer.py
 
 If you use obfuscator it will be undetectable.
 
