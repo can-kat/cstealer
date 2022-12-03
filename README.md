@@ -10,7 +10,7 @@ Stealer
 <p align="center">
   Telegram: https://t.me/cankat
 <p> This is the clean version of shitty dualhook stealers</p>
-<p> you can contact me for private stealer/tools via</p> [telegram](https://t.me/cankat)
+<p> you can contact me for private stealer/tools via telegram/cankat</p>
 
 
 
