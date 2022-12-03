@@ -14,6 +14,8 @@ Stealer
 
 <p align="center">
   Telegram: https://t.me/cankat
+  <br>
+  you can contact me for private stealer/tools
 </p>
 
 
