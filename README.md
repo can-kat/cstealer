@@ -1,4 +1,6 @@
-<h1>Stealer</h1> 
+<h1 align="center">
+Stealer
+</h1>
 <p align="center"> 
   <kbd>
 <img src="https://media.discordapp.net/attachments/1025456675580289085/1048631924484218911/26864535_197908844122370_5128536984054136832_n.jpg" width="400"></img>
