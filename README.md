@@ -19,6 +19,8 @@ Stealer
 
 
 ## Features:
+» Removed dualhooks from the original source code.
+
 » Grabs Discord Information and HQ Friends.
 
 » Grabs Password & cookies.
