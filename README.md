@@ -14,8 +14,6 @@ Stealer
 
 <p align="center">
   Telegram: https://t.me/cankat
-This is the clean version of shitty dualhook stealers
-you can contact me for private stealer/tools via telegram/cankat
 </p>
 
 
