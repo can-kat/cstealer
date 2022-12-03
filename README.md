@@ -6,6 +6,11 @@ Stealer
 <img src="https://media.discordapp.net/attachments/1025456675580289085/1048631924484218911/26864535_197908844122370_5128536984054136832_n.jpg" width="400"></img>
   </kbd>
 </p>
+<p align="center">
+<img src="https://img.shields.io/github/last-commit/cankatx/stealer?style=flat">
+<img src="https://img.shields.io/github/stars/cankatx/stealer?color=brightgreen">
+<img src="https://img.shields.io/github/forks/cankatx/stealer?color=brightgreen">
+</p>
 
 <p align="center">
   Telegram: https://t.me/cankat
