@@ -19,7 +19,6 @@ Stealer
 </p>
 
 
-
 ## Features:
 » Removed dualhooks from the original source code.
 
