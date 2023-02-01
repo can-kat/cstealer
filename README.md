@@ -1,45 +1,51 @@
 <h1 align="center">
-Stealer
+💨 CStealer 💨
 </h1>
 <p align="center"> 
   <kbd>
-<img src="https://media.discordapp.net/attachments/1025456675580289085/1048631924484218911/26864535_197908844122370_5128536984054136832_n.jpg" width="400"></img>
+<img src="https://media.discordapp.net/attachments/1025456675580289085/1070151555849928764/GIF-210621_214354.png" width="400"></img>
   </kbd>
 </p>
 <p align="center">
-<img src="https://img.shields.io/github/last-commit/cankatx/stealer?style=flat">
-<img src="https://img.shields.io/github/stars/cankatx/stealer?color=brightgreen">
-<img src="https://img.shields.io/github/forks/cankatx/stealer?color=brightgreen">
+    <img src="https://img.shields.io/github/stars/cankatx/stealer?color=%23000000&logoColor=%23000000">
+    <img src="https://img.shields.io/github/forks/cankatx/stealer?color=%23000000"> 
+    <br>
+    <img src="https://img.shields.io/github/languages/top/cankatx/stealer?color=%23000000">
+    <img src="https://img.shields.io/github/last-commit/cankatx/stealer?color=%23000000&logoColor=%23000000">
+    <br>
+    <img src="https://img.shields.io/github/issues/cankatx/stealer?color=%23000000&logoColor=%23000000">
+    <img src="https://img.shields.io/github/issues-closed/cankatx/stealer?color=%23000000&logoColor=%23000000">
+    <br>
 </p>
 
 <p align="center">
-  Telegram: https://t.me/cankat
+  Telegram channel: https://t.me/cstealer
   <br>
-  you can contact me for private stealer/tools
+  Telegram: https://t.me/cankat | you can contact me for private stealer/tools
 </p>
 
 
 ## Features:
-» Removed dualhooks from the original source code.
 
 » Grabs Discord Information and HQ Friends.
 
-» Grabs Password & cookies.
+» Grabs Password & Cookies.
 
-» Grabs Files.
+» Grabs Important Files.
 
 » Shows Crypto Wallets
 
-» Grabs metamask/exodus
+» Grabs MetaMask/Exodus
 
-» Grabs Telegram
+» Grabs Telegram, Riot Client, Steam
 
-» Grabs chromium based Passwords
+» Anti-Debug (Check if being run in a virustotal sandbox)
 
+» Anti-VM
 
 ## Setup:
  
-First paste and save your webhook address instead of `"YOUR_WEBHOOK"` in stealer.py
+First paste and save your webhook address instead of `"WEBHOOK HERE"` in main.py
 
 If you use obfuscator it will be undetectable.
 
@@ -51,20 +57,16 @@ And after installed `python -m auto_py_to_exe`
 
 Browse file Select `One file and Windows Based (hide the console)`
 
-<img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="70%" src="https://raw.githubusercontent.com/Maybach1337/Satan-Stealer/main/img/pyy (1).png "></img>
+<img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="70%" src="https://raw.githubusercontent.com/cankatx/cstealer/main/img/ss3.png"></img>
 
 And press covert .py .exe
 
- <hr style="border-radius: 2%; margin-top: 60px; margin-bottom: 60px;" noshade="" size="20" width="100%">
-
 ## Pictures:
- 
-<img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="70%" src="https://raw.githubusercontent.com/Maybach1337/Satan-Stealer/main/img/ssatan0.jpg"></img>
 
-<img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="70%" src="https://raw.githubusercontent.com/Maybach1337/Satan-Stealer/main/img/ssatan1.jpg"></img>
+<img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="70%" src="https://raw.githubusercontent.com/cankatx/cstealer/main/img/ss1.png"></img>
 
-<img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="70%" src="https://raw.githubusercontent.com/Maybach1337/Satan-Stealer/main/img/ssatan2.jpg"></img>
- 
+<img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="70%" src="https://raw.githubusercontent.com/cankatx/cstealer/main/img/ss2.png"></img>
+</div>
  
 ## Disclaimer:
 
