@@ -19,9 +19,9 @@
 </p>
 
 <p align="center">
-  Telegram channel: https://t.me/cstealer
+  Telegram: https://t.me/cankat
   <br>
-  Telegram: https://t.me/cankat | you can contact me for private stealer/tools
+you can contact me for private stealer/tools
 </p>
 
 
