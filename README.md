@@ -45,7 +45,7 @@ you can contact me for private stealer/tools
 
 ## Setup:
  
-First paste and save your webhook address instead of `"WEBHOOK HERE"` in main.py
+First paste and save your webhook address instead of `"YOUR_WEBHOOK_URL"` in main.py
 
 If you use obfuscator it will be undetectable.
 
@@ -59,7 +59,7 @@ Browse file Select `One file and Windows Based (hide the console)`
 
 <img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="70%" src="https://raw.githubusercontent.com/cankatx/cstealer/main/img/ss3.png"></img>
 
-And press covert .py .exe
+And press convert .py to .exe
 
 ## Pictures:
 
