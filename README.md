@@ -43,6 +43,8 @@ you can contact me for private stealer/tools
 
 » Anti-VM
 
+» Less AV Detection
+
 ## Setup:
  
 First paste and save your webhook address instead of `"YOUR_WEBHOOK_URL"` in main.py
