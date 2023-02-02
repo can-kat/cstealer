@@ -59,9 +59,11 @@ And after installed `python -m auto_py_to_exe`
 
 Browse file Select `One file and Windows Based (hide the console)`
 
+And press convert .py to .exe
+
 <img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="70%" src="https://raw.githubusercontent.com/cankatx/cstealer/main/img/ss3.png"></img>
 
-And press convert .py to .exe
+You can use `cx_freeze` package for less av detection
 
 ## Pictures:
 
