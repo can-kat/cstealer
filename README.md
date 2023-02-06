@@ -1,5 +1,5 @@
 <h1 align="center">
-💨 CStealer 💨
+💨 CStealer 💨 
 </h1>
 <p align="center"> 
   <kbd>
