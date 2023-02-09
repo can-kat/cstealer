@@ -24,7 +24,6 @@
 you can contact me for private stealer/tools
 </p>
 
-
 ## Features:
 
 » Grabs Discord Information and HQ Friends.
