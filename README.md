@@ -17,7 +17,7 @@
     <img src="https://img.shields.io/github/issues-closed/cankatx/stealer?color=%23000000&logoColor=%23000000">
     <br>
 </p>
-
+ 
 <p align="center">
   Telegram: https://t.me/cankat
   <br>
