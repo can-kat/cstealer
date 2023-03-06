@@ -19,9 +19,9 @@
 </p>
  
 <p align="center">
-  Telegram: https://t.me/cankat
+  Telegram server: https://t.me/cstealerr
   <br>
-you can contact me for private stealer/tools
+you can just join to the telegram server for any inquiry
 </p>
 
 ## Features:
