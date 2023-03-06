@@ -1,0 +1,4 @@
+requests
+Crypto.Cipher
+pycryptodome
+AES
