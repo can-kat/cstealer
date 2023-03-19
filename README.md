@@ -1,9 +1,9 @@
 <h1 align="center">
-⭐ GO STAR THE REPO I WILL ADD FUD SUPPORT & MORE THINGS IF WE GET 100 STARS ⭐
-</h1>
-<h1 align="center">
 💨 CStealer 💨 
 </h1>
+<h2 align="center">
+🌟 Please star the repo more stars = more updates 🌟 
+</h2>
 <p align="center"> 
   <kbd>
 <img src="https://media.discordapp.net/attachments/1025456675580289085/1070151555849928764/GIF-210621_214354.png" width="400"></img>
