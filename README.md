@@ -1,5 +1,5 @@
 <h1 align="center">
-⭐ GO STAR THE REPO I WILL ADD FUD SUPPORT & MORE THINGS IF WE GET 100 STARTS ⭐
+⭐ GO STAR THE REPO I WILL ADD FUD SUPPORT & MORE THINGS IF WE GET 100 STARS ⭐
 </h1>
 <h1 align="center">
 💨 CStealer 💨 
