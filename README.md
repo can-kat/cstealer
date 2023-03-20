@@ -24,7 +24,7 @@
 <p align="center">
   Telegram server: https://t.me/cstealerr
   <br>
-you can just join to the telegram server for any inquiry
+you can just join if you need help or private requests
 </p>
 <hr style="border-radius: 2%; margin-top: 60px; margin-bottom: 60px;" noshade="" size="20" width="100%">
 
