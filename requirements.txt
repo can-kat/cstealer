@@ -1,0 +1,9 @@
+requests
+Crypto.Cipher
+pycryptodome
+pystyle
+colorama
+auto_py_to_exe
+pyinstaller
+wmi
+fade
