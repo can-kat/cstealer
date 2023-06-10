@@ -56,7 +56,7 @@ This software was made for personal **education** and **sandbox testing** purpos
 
 
 
-## <a id="features"></a>🔰 〢 Features
+## <a id="features"></a>💎 〢 Features
 ```diff
 > Default:
 
