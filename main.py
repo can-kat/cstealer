@@ -3,7 +3,6 @@ import requests
 import threading
 from sys import executable
 from sqlite3 import connect as sql_connect
-import re
 from base64 import b64decode
 from json import loads as json_loads, load
 import ctypes
