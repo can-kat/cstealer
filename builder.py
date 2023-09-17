@@ -72,6 +72,7 @@ with open(filepath, "w", encoding="utf-8") as f:
         time.sleep(2)
         os.system("cls")
         print(text2)
+        icon_file = None  # Initialize icon_file with None
         answer = input(Fore.CYAN + "\nDo you want to build EXE file? (Y/N) " + Style.RESET_ALL)
         if answer.upper() == "Y":
               time.sleep(1)
@@ -80,11 +81,11 @@ with open(filepath, "w", encoding="utf-8") as f:
                     print(Fore.YELLOW + "Build process has been started please wait..." + Style.RESET_ALL)
                     Tk().withdraw()  
                     icon_file = filedialog.askopenfilename(filetypes=[("Icon Files", "*.ico")])
-              if icon_file:
+              if icon_file and icon_file.endswith('.ico'):
                     os.system(f"pyinstaller --noconfirm --onefile --windowed --upx-dir=./CStealer_assets/upx --icon {icon_file} {filename}")
                     print(f"\n{Fore.GREEN}{filename} has been converted to EXE with the selected icon.{Fore.RESET}")
               else:
-                    print(Fore.YELLOW + "File you choose must be have .ico extension!" + Style.RESET_ALL)
+                    print(Fore.YELLOW + "Reminder: File you choose must be have .ico extension!" + Style.RESET_ALL)
                     os.system (f"pyinstaller --noconfirm --onefile --windowed --upx-dir=./CStealer_assets/upx {filename}")
                     print(f"\n{Fore.GREEN}File successfully builded{Fore.RESET}")
                     time.sleep(2)
