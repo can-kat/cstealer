@@ -100,7 +100,7 @@ This software was made for personal **education** and **sandbox testing** purpos
 ## <a id="changelog"></a>💭 〢 ChangeLog
 
 ```diff
-v1.2 ⋮ 2023-26-07
+v1.2 ⋮ 2023-17-09
 
 + Bug fixes and other minor improvements
 
