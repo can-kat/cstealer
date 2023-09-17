@@ -100,6 +100,11 @@ This software was made for personal **education** and **sandbox testing** purpos
 ## <a id="changelog"></a>💭 〢 ChangeLog
 
 ```diff
+v1.2 ⋮ 2023-26-07
+
++ Code optimization
++ Bug fixes and other minor improvements
+
 v1.1 ⋮ 2023-26-07
 
 + Code optimization
