@@ -20,7 +20,6 @@ CStealer
 </p>
 
 
-
 <h1 align="center">
  https://t.me/cstealerr<br>
 🔱 Join Telegram for support and contact 🔱
