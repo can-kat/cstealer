@@ -1,8 +1,9 @@
 requests
 pycryptodome
-pystyle
-colorama
-auto_py_to_exe
 pyinstaller
+customtkinter
+pycryptodome
+Crypto
+packaging
+tk
 wmi
-fade
