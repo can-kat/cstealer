@@ -2,7 +2,7 @@
   <div>
     <img  src="https://i.hizliresim.com/998zxyv.png">
   </div>
-  </div>
+  </div> 
 
 </p>
 <p align="center">
