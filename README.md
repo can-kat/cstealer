@@ -1,6 +1,6 @@
   <div align="center">
   <div>
-    <img  src="https://raw.githubusercontent.com/can-kat/cstealer/main/CStealer_assets/img/998zxyv.png">
+    <img  src="https://raw.githubusercontent.com/can-kat/cstealer/main/cs.png">
   </div>
   </div> 
 
