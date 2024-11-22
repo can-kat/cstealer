@@ -33,7 +33,7 @@ The repository will remain available in a read-only state for those who might st
 
 Thank you all for being part of this journey. I hope to return in the future with new and exciting projects to share!
 
-Wishing you all the best,
+Wishing you all the best,<br>
 cankat.
 
 ## Install
