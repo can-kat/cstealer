@@ -18,7 +18,7 @@
 </p>
  
 <p align="center">
-  Telegram: https://t.me/+jjhIsuuMVvQ1ZTk0
+  Telegram: https://t.me/cnkservices
 <hr style="border-radius: 2%; margin-top: 60px; margin-bottom: 60px;" noshade="" size="20" width="100%">
 </p>
 <br>
